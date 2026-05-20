@@ -1,0 +1,46 @@
+{
+  "dataset": {
+    "train_size": 69,
+    "val_size": 12,
+    "test_size": 18,
+    "num_classes": 3
+  },
+  "models": {
+    "Small": {
+      "hidden_size": 4,
+      "train_loss_final": 0.000662402933337185,
+      "val_loss_final": 0.0005170669236876946,
+      "overfit_gap": -0.00014533600964949033,
+      "is_overfitting": "NO",
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    },
+    "Medium": {
+      "hidden_size": 8,
+      "train_loss_final": 0.001298145532785755,
+      "val_loss_final": 0.0012010312313017787,
+      "overfit_gap": -9.711430148397638e-05,
+      "is_overfitting": "NO",
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    },
+    "Large": {
+      "hidden_size": 32,
+      "train_loss_final": 0.00027809181904950216,
+      "val_loss_final": 0.0002371466518524169,
+      "overfit_gap": -4.0945167197085273e-05,
+      "is_overfitting": "NO",
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    },
+    "XL": {
+      "hidden_size": 64,
+      "train_loss_final": 0.0006243704665010116,
+      "val_loss_final": 0.000506354100549962,
+      "overfit_gap": -0.0001180163659510496,
+      "is_overfitting": "NO",
+      "test_accuracy": 1.0,
+      "test_f1": 1.0
+    }
+  }
+}

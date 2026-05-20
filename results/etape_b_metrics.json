@@ -1,0 +1,30 @@
+{
+  "split": {
+    "train_size": 69,
+    "val_size": 12,
+    "test_size": 18
+  },
+  "test_accuracy": 1.0,
+  "test_macro_f1": 1.0,
+  "confusion_matrix": [
+    [
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0
+    ],
+    [
+      0,
+      0,
+      6
+    ]
+  ],
+  "final_losses": {
+    "train": 0.001298145532785755,
+    "val": 0.0012010312313017787
+  }
+}
