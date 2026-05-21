@@ -1,12 +1,3 @@
-"""
-model.py - Implémentation d'un réseau de neurones from scratch.
-No numpy, no tensorflow, no keras: ONLY Python standard (math, random).
-
-Architecture: Input -> Dense(hidden) -> Dense(output)
-Activations: ReLU (hidden) + Softmax (output)
-Loss: Cross-entropy
-Optimization: SGD with backpropagation
-"""
 
 import math
 import random
@@ -28,7 +19,7 @@ class NeuralNetwork:
         self.hidden_size = hidden_size
         self.output_size = output_size
         
-        # Initialisation des poids et biais (Xavier/He initialization simple)
+        # Initialisation des poids et biais 
         init_limit_1 = math.sqrt(6.0 / (input_size + hidden_size))
         init_limit_2 = math.sqrt(6.0 / (hidden_size + output_size))
         

@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Génère un dataset synthétique de smileys 8x8 en format PGM ASCII.
-Respects projet constraint: ONLY Python standard library (no numpy, no PIL, etc.)
-"""
+
 
 import os
 import random
