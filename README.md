@@ -4,7 +4,7 @@
 Implémentation **100% from scratch** d'un système de reconnaissance d'émotions sur des images de smileys synthétiques. **Aucune librairie ML** (numpy, sklearn, tensorflow, keras, opencv) - **Python stdlib uniquement**.
 
 ---
-
+la vidéo https://youtu.be/NI8TJqVHntE
 ## ✅ Objectifs Réalisés
 
 - ✅ **Version 1**: 3 classes (Happy, Neutral, Sad) → **100% accuracy**
