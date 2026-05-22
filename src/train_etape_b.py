@@ -55,7 +55,7 @@ def main():
     hidden_size = 8
     output_size = len(class_names)
     learning_rate = 0.1
-    num_epochs = 100
+    num_epochs = 150
     
     model = NeuralNetwork(input_size, hidden_size, output_size, seed=42)
     

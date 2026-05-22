@@ -39,8 +39,8 @@ def main():
     train_images, train_labels, test_images, test_labels, class_names = load_all_data(data_dir)
     
     
-    train_images = train_images[:1]
-    train_labels = train_labels[:1]
+    train_images = train_images[:25]
+    train_labels = train_labels[:25]
     
     print(f"  Train: {len(train_images)} images ({len(class_names)} classes)")
     print(f"  Test:  {len(test_images)} images")
@@ -55,7 +55,7 @@ def main():
     hidden_size = 8  # Petit modèle pour baseline
     output_size = len(class_names)
     learning_rate = 0.1
-    num_epochs = 200  # ⚡ Réduit pour démo rapide
+    num_epochs = 150
     
     # Créer le réseau
     model = NeuralNetwork(input_size, hidden_size, output_size, seed=42)
